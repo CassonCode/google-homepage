@@ -11,5 +11,32 @@ ul {
   }
 
 header {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.header-container-navbar-left {
     display: flex;
+}
+
+#nav-about {
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#nav-about:hover {
+    text-decoration: underline;
+}
+
+#nav-store {
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#nav-store:hover {
+    text-decoration: underline;
 }
