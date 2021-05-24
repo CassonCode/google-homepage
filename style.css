@@ -48,11 +48,13 @@ header {
 
 .header-grid-child {
     justify-self: end;
+    display: flex;
 }
 
 .header-container-navbar-right {
     display: flex;
     padding-top: 1.25em;
+    padding-right: 1.7em;
 }
 
 #nav-gmail {
@@ -60,7 +62,7 @@ header {
     font-family: arial, sans-serif;
     font-size: 13px;
     letter-spacing: 0.005em;
-    padding-right: 1em;
+    padding-right: 1.1em;
     text-decoration: none;
 }
 
@@ -80,6 +82,12 @@ header {
     text-decoration: underline;
 }
 
-#nav-google-account-icon {
-    
+.navbar-apps {
+    padding-top: 1.1em;
+    padding-right: 1.2em;
+}
+
+.navbar-account {
+    padding-top: 0.8em;
+    padding-right: 1.1em;
 }
