@@ -98,7 +98,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 12.75%;
+    padding-top: 12.8%;
 }
 
 input:focus {
@@ -108,15 +108,21 @@ input:focus {
 .searchbar-container {
     position: relative;
     display: flex;
-    min-width: 600px;
+    padding-top: 22px;
+    min-width: 584px;
 }
 
 #search-icon {
     position: absolute;
+    padding-top: 10px;
 }
 
 #searchbar {
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(221, 221, 221);
+    height: 46px;
+    padding-left: 50px;
     width: 100%;
 }
 
@@ -126,4 +132,5 @@ input:focus {
 
 .searchbar-buttons {
     display: flex;
+    justify-content: center;
 }
