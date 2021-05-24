@@ -45,3 +45,41 @@ header {
 #nav-store:hover {
     text-decoration: underline;
 }
+
+.header-grid-child {
+    justify-self: end;
+}
+
+.header-container-navbar-right {
+    display: flex;
+    padding-top: 1.25em;
+}
+
+#nav-gmail {
+    color: rgb(30, 30, 30);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.005em;
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+#nav-gmail:hover {
+    text-decoration: underline;
+}
+
+#nav-images {
+    color: rgb(30, 30, 30);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.005em;
+    text-decoration: none;
+}
+
+#nav-images:hover {
+    text-decoration: underline;
+}
+
+#nav-google-account-icon {
+    
+}
