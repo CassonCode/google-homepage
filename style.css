@@ -17,12 +17,16 @@ header {
 
 .header-container-navbar-left {
     display: flex;
+    padding-top: 1.25em;
 }
 
 #nav-about {
-    color: black;
+    color: rgb(30, 30, 30);
     font-family: arial, sans-serif;
     font-size: 14px;
+    letter-spacing: 0.005em;
+    padding-left: 1.85em;
+    padding-right: 1.4em;
     text-decoration: none;
 }
 
@@ -31,9 +35,10 @@ header {
 }
 
 #nav-store {
-    color: black;
+    color: rgb(30, 30, 30);
     font-family: arial, sans-serif;
     font-size: 14px;
+    letter-spacing: 0.005em;
     text-decoration: none;
 }
 
