@@ -112,22 +112,34 @@ input:focus {
     min-width: 584px;
 }
 
-#search-icon {
+.search-icon {
     position: absolute;
-    padding-top: 10px;
+    padding-top: 11px;
+    padding-left: 13px;
 }
 
-#searchbar {
+.searchbar {
     background-color: white;
     border-radius: 50px;
     border: 1px solid rgb(221, 221, 221);
+    font-family: arial,sans-serif;
+    font-size: 16px;
     height: 46px;
-    padding-left: 50px;
+    padding-left: 47px;
     width: 100%;
 }
 
-#clear-search-icon {
+.searchbar:hover {
+    box-shadow: 0 0 5px 1.5px rgb(221, 221, 221);
+    border: hidden;
+}
+
+.clear-search-icon {
     position: absolute;
+    padding-top: 11px;
+    margin-left: 542.5px;
+    cursor: pointer;
+    visibility: hidden;
 }
 
 .searchbar-buttons {
