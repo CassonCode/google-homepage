@@ -98,7 +98,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 12.8%;
+    padding-top: 208px;
 }
 
 input:focus {
@@ -145,4 +145,34 @@ input:focus {
 .searchbar-buttons {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+}
+
+.google-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #3c4043;
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 9px 4px;
+    min-width: 50px;
+    padding: 0 16.5px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.google-button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#lucky-button {
+    margin-left: 7px;
 }
