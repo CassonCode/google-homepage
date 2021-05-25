@@ -53,8 +53,8 @@ header {
 
 .header-container-navbar-right {
     display: flex;
-    padding-top: 1.25em;
-    padding-right: 1.7em;
+    margin-top: 1.25em;
+    padding-right: 19.5px;
 }
 
 #nav-gmail {
@@ -83,16 +83,48 @@ header {
 }
 
 .navbar-apps {
-    padding-top: 1.1em;
-    padding-right: 1.2em;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 7.5px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-apps:hover {
+    background-color: #f2f2f2;
+}
+
+#nav-google-apps-icon {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .navbar-account {
-    padding-top: 0.8em;
-    padding-right: 1.1em;
+    border-radius: 50%;
+    margin-top: 9.805px;
+    margin-right: 14.108px;
+    position: relative;
+    width: 40px;
+    height: 40px;
 }
 
-/* Center Content */
+.navbar-account:hover {
+    background-color: #f2f2f2;
+}
+
+#nav-google-account-icon {
+    position: absolute;
+    top: 55%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+/* Center Content --------------------------------------------------------------------*/
+
 
 .center-content {
     display: flex;
@@ -177,6 +209,8 @@ input:focus {
     margin-left: 7px;
 }
 
+/* Footer --------------------------------------------------------------------------*/
+
 .navbar-footer {
     color: #70757a;
     position: fixed;
@@ -196,14 +230,6 @@ footer {
 .footer-container-navbar-left {
     display: flex;
     padding-top: 13px;
-}
-
-.footer-container-navbar-right {
-    display: flex;
-}
-
-.end-navbar-footer {
-    justify-self: end;
 }
 
 #nav-advertising {
@@ -242,5 +268,53 @@ footer {
 }
 
 #nav-how-search-works:hover {
+    text-decoration: underline;
+}
+
+.footer-container-navbar-right {
+    display: flex;
+    padding-top: 13px;
+}
+
+.end-navbar-footer {
+    justify-self: end;
+}
+
+#nav-privacy {
+    color: #70757a;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    letter-spacing: 0.00175em;
+    padding-right: 29.75px;
+    text-decoration: none;
+}
+
+#nav-privacy:hover {
+    text-decoration: underline;
+}
+
+#nav-terms {
+    color: #70757a;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    letter-spacing: 0.00175em;
+    padding-right: 29.75px;
+    text-decoration: none;
+}
+
+#nav-privacy:hover {
+    text-decoration: underline;
+}
+
+#nav-settings {
+    color: #70757a;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    letter-spacing: 0.00175em;
+    padding-right: 35px;
+    text-decoration: none;
+}
+
+#nav-settings:hover {
     text-decoration: underline;
 }
