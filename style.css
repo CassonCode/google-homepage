@@ -130,12 +130,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 208px;
+    margin-top: 21.75vh;
 }
 
-input:focus {
+ input:focus {
     outline: none;
-}
+} 
 
 .searchbar-container {
     position: relative;
